@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: "Futura";
+    src: url("C:/Users/Matt/Desktop/website/prelim 1/styles/Futura.woff") format("WOFF");
+    font-weight: normal;
+}
+
+body{
+    font-family: Futura;
+    color:#3b4453;
+    background:#b7ad9b;
+    /*text-shadow:
+    -1px -1px 1px #8f8277,  
+     1px -1px 1px #8f8277,
+    -1px  1px 1px #8f8277,
+     1px  1px 1px #8f8277;*/
+     margin: 0;
+}
+
+header{
+    margin: 0;
+    color: #d23131;
+    background: #45535e;
+    text-shadow:
+    -2px -2px 2px #3b4453,  
+     2px -2px 2px #3b4453,
+    -2px  2px 2px #3b4453,
+     2px  2px 2px #3b4453;
+     text-align: center;
+     padding: .3%;
+}
+
+nav ul{
+    display: inline;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #45535e;
+    box-shadow: 
+    -2px -2px 2px #3b4453,
+     2px  2px 2px #3b4453,
+    -2px  2px 2px #3b4453,
+     2px -2px 2px #3b4453;
+    padding: 1%;
+    width: 20%;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    color: #d23131;
+}
+
+footer{
+    align-self: bottom;
+    text-align: center;
+}
