@@ -1,0 +1,66 @@
+
+/*@font-face {
+    font-family: "Futura";
+    src: url("C:/Users/Matt/Desktop/website/prelim 1/styles/Futura.woff") format("WOFF");
+    font-weight: normal;
+}*/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color:#6d6875;
+    background:#ffcdb2;
+    /*text-shadow:
+    -1px -1px 1px #ffb4a2,  
+     1px -1px 1px #ffb4a2,
+    -1px  1px 1px #ffb4a2,
+     1px  1px 1px #ffb4a2;*/
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    margin: 0;
+    color: #ffcdb2;
+    background: #b5838d;
+    text-shadow:
+    -2px -2px 2px #6d6875,  
+     2px -2px 2px #6d6875,
+    -2px  2px 2px #6d6875,
+     2px  2px 2px #6d6875;
+     text-align: center;
+     padding: .3%;
+}
+
+nav ul{
+    display: inline;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #b5838d;
+    box-shadow: 
+    -2px -2px 2px #6d6875,
+     2px  2px 2px #6d6875,
+    -2px  2px 2px #6d6875,
+     2px -2px 2px #6d6875;
+    padding: 1%;
+    width: 14%;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    color: #ffcdb2;
+}
+
+footer{
+    align-self: bottom;
+    text-align: center;
+}
+
+.photo{
+    display: inline-block;
+    width: 110%;
+    align-items: center;
+}
