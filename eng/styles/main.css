@@ -28,8 +28,35 @@ header{
     -2px  2px 2px #6d6875,
      2px  2px 2px #6d6875;
      text-align: center;
-     padding: .3%;
 }
+
+.navbar{
+    background: #b5838d;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    float: left;
+    top: 0;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 
+    -2px -2px 1px #e5989b,
+     2px  2px 1px #e5989b,
+    -2px  2px 1px #e5989b,
+     2px -2px 1px #e5989b;
+}
+
+.navbar a {
+    float: center;
+    background: none;
+}
+
+.navbar ul li:hover{
+    background-color: #e5989b;
+    
+}
+
 
 nav ul{
     display: inline;
@@ -52,15 +79,41 @@ nav ul li{
 
 nav ul li a{
     color: #ffcdb2;
+    background: none;
+    box-shadow: none;
+}
+
+h2{
+    font-size: xx-large;
+    margin-bottom: 3%;
+    padding: 1%;
+    border-radius: 5px;
+    width: none;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 
+    -2px -2px 1px #e5989b,
+     2px  2px 1px #e5989b,
+    -2px  2px 1px #e5989b,
+     2px -2px 1px #e5989b;
+}
+
+img{
+    margin-bottom: 2%;
+    box-shadow: 
+    -2px -2px 5px #e5989b,
+     2px  2px 5px #e5989b,
+    -2px  2px 5px #e5989b,
+     2px -2px 5px #e5989b;
+}
+
+.photo{
+    display: inline-block;
+    width: 100%;
 }
 
 footer{
     align-self: bottom;
     text-align: center;
-}
-
-.photo{
-    display: inline-block;
-    width: 110%;
-    align-items: center;
+    margin-bottom: 3%;
 }
