@@ -143,7 +143,7 @@ img{
     display: inline-block;
     font-size: x-large;
     border-radius: 5px;
-    width: 50%;
+    width: 80%;
     text-align: center;
     box-shadow: 
     -2px -2px 1px #e5989b,
@@ -158,7 +158,8 @@ img{
     color: #b5838d;
     display: inline-block;
     text-align: center;
-    width: 50%;
+    text-align: left;
+    width: 70%;
 }
 
 footer{
