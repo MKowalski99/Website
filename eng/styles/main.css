@@ -85,21 +85,15 @@ nav ul li a{
 
 h2{
     font-size: xx-large;
-    margin-bottom: 3%;
-    padding: 1%;
-    border-radius: 5px;
-    width: none;
     text-align: center;
     display: inline-block;
-    box-shadow: 
-    -2px -2px 1px #e5989b,
-     2px  2px 1px #e5989b,
-    -2px  2px 1px #e5989b,
-     2px -2px 1px #e5989b;
+    
 }
 
-img{
-    margin-bottom: 2%;
+table{
+    display: inline-block;
+    width:90%;
+    border-radius: 5px;
     box-shadow: 
     -2px -2px 5px #e5989b,
      2px  2px 5px #e5989b,
@@ -107,9 +101,64 @@ img{
      2px -2px 5px #e5989b;
 }
 
+tr{
+    vertical-align: top;
+}
+
 .photo{
-    display: inline-block;
+    vertical-align: top;
     width: 100%;
+    margin: 2%;
+    padding: 2%;
+}
+
+img{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 300%;
+    height: 300%;
+    box-shadow: 
+    -2px -2px 5px #e5989b,
+     2px  2px 5px #e5989b,
+    -2px  2px 5px #e5989b,
+     2px -2px 5px #e5989b;
+}
+
+
+.events{
+    width: 40%;
+    float: right;
+    text-align: left;
+    margin-right: 2%;
+}
+
+.events h3{
+    text-align: center;
+}
+.events p{
+    width: 60%;
+}
+
+.abt{
+    display: inline-block;
+    font-size: x-large;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 
+    -2px -2px 1px #e5989b,
+     2px  2px 1px #e5989b,
+    -2px  2px 1px #e5989b,
+     2px -2px 1px #e5989b;
+     padding-bottom: 2%;
+     margin-bottom: 2%;
+}
+
+.abt p{
+    color: #b5838d;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
 }
 
 footer{
